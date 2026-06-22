@@ -1,15 +1,62 @@
-# Shell Scripting Project (DevOps Beginner Level)
+# Linux Monitoring Toolkit
 
-## 📌 Description
-This project contains basic shell scripts used in DevOps automation.
+A DevOps-focused shell scripting project for monitoring Linux system health, Docker containers, disk usage, processes, and logs.
 
-## 📂 Structure
-- scripts/system_health.sh → system monitoring
-- scripts/docker_status.sh → docker monitoring
-- scripts/backup.sh → file backup automation
+## Features
 
-## 🚀 How to run
+* System Health Monitoring
+* Docker Container Status Monitoring
+* Disk Usage Monitoring
+* Process Monitoring
+* Log Analysis
+* Automated Backup Script
+
+## Project Structure
+
+```text
+shell-scripting-project/
+├── docs/
+├── screenshots/
+├── scripts/
+│   ├── backup.sh
+│   ├── docker_status.sh
+│   ├── disk_monitor.sh
+│   ├── log_analyzer.sh
+│   ├── process_monitor.sh
+│   └── system_health.sh
+└── .github/workflows/
+```
+
+## Usage
+
+Make scripts executable:
 
 ```bash
 chmod +x scripts/*.sh
+```
+
+Run scripts:
+
+```bash
 ./scripts/system_health.sh
+./scripts/docker_status.sh
+./scripts/disk_monitor.sh
+./scripts/process_monitor.sh
+./scripts/log_analyzer.sh
+```
+
+## Technologies
+
+* Linux
+* Bash
+* Git
+* GitHub
+* GitHub Actions
+
+## Future Enhancements
+
+* Email Alerts
+* Cron Automation
+* Docker Integration
+* Monitoring Dashboard
+
